@@ -2,7 +2,7 @@ Source: psi-plus-i18n
 Section: net
 Priority: optional
 Maintainer: Boris Pek <tehnick-8@mail.ru>
-Build-Depends: debhelper (>= 7), libqt4-dev
+Build-Depends: debhelper (>= 7.0.50~), libqt4-dev
 Homepage: https://github.com/tehnick/psi-plus-i18n
 Vcs-Git: git://github.com/tehnick/psi-plus-i18n-debian.git
 Vcs-Browser: https://github.com/tehnick/psi-plus-i18n-debian

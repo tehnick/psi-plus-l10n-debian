@@ -29,7 +29,7 @@ get-orig-source:
 	tar xzf master
 	mv $(DEVELOPER)-$(PROJECT)-* "$(PACKAGE)-$(CUR_VER)"
 	# tarball
-	tar -cJf "$(PACKAGE)_$(CUR_VER).orig.tar.xz" "$(PACKAGE)-$(CUR_VER)"
+	tar -cJf ../"$(PACKAGE)_$(CUR_VER).orig.tar.xz" "$(PACKAGE)-$(CUR_VER)"
 	# cleaning
 	rm -rf "$(PACKAGE)-$(CUR_VER)" "$(CUR_VER)" "master"
 
