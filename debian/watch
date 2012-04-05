@@ -1,3 +1,2 @@
-# Location of sources:
-# https://github.com/tehnick/psi-plus-i18n
-# Sources from master branch are used in the package.
+version=3
+https://github.com/tehnick/psi-plus-i18n/tags .*/tehnick/psi-plus-i18n/tarball/(\d.+) debian uupdate
