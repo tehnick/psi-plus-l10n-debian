@@ -11,7 +11,7 @@ Standards-Version: 3.9.3
 Package: psi-plus-i18n
 Section: localization
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, psi-plus-common
 Description: translation files for Psi+
  This package contains translation files for Psi+.
  .
