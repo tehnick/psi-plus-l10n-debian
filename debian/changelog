@@ -1,3 +1,9 @@
+psi-plus-i18n (0.15.5317-0ppa1~precise1) precise; urgency=low
+
+  * New upstream release.
+
+ -- Boris Pek <tehnick-8@mail.ru>  Sat, 07 Apr 2012 23:56:16 +0300
+
 psi-plus-i18n (0.15.5312-0ppa1~precise1) precise; urgency=low
 
   * Initial release.
