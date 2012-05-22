@@ -1,8 +1,8 @@
-psi-plus-i18n (0.15.5336.1-0ppa1~quantal1) quantal; urgency=low
+psi-plus-i18n (0.15.5337-0ppa1~quantal1) quantal; urgency=low
 
   * New upstream release.
 
- -- Boris Pek <tehnick-8@mail.ru>  Mon, 21 May 2012 20:03:33 +0300
+ -- Boris Pek <tehnick-8@mail.ru>  Tue, 22 May 2012 19:54:26 +0300
 
 psi-plus-i18n (0.15.5312-0ppa1~precise1) precise; urgency=low
 
