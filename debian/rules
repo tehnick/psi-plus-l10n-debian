@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-PACKAGE = psi-plus-i18n
+PACKAGE = psi-plus-l10n
 
 %:
 	dh $@ --parallel

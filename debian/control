@@ -1,14 +1,14 @@
-Source: psi-plus-i18n
+Source: psi-plus-l10n
 Section: net
 Priority: optional
 Maintainer: Boris Pek <tehnick-8@mail.ru>
 Build-Depends: debhelper (>= 7.0.50~), libqt4-dev
 Homepage: https://github.com/tehnick/psi-plus-i18n
-Vcs-Git: git://github.com/tehnick/psi-plus-i18n-debian.git
-Vcs-Browser: https://github.com/tehnick/psi-plus-i18n-debian
+Vcs-Git: git://github.com/tehnick/psi-plus-l10n-debian.git
+Vcs-Browser: https://github.com/tehnick/psi-plus-l10n-debian
 Standards-Version: 3.9.3
 
-Package: psi-plus-i18n
+Package: psi-plus-l10n
 Section: localization
 Architecture: all
 Depends: ${misc:Depends}, psi-plus-common
