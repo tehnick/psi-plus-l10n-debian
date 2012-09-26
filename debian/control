@@ -15,10 +15,10 @@ Depends: ${misc:Depends}, psi-plus | psi-plus-webkit
 Conflicts: psi-plus-i18n
 Replaces: psi-plus-i18n
 Provides: psi-plus-i18n
-Description: translation files for Psi+
- This package contains translation files for Psi+.
+Description: localization files for Psi+
+ This package contains localization files for Psi+.
  .
- If you want make or update any translation see:
+ If you want to add new or update any existing translation see:
  https://github.com/psi-plus/psi-plus-l10n
  https://www.transifex.net/projects/p/psi-plus/
  .
