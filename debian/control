@@ -11,7 +11,7 @@ Standards-Version: 3.9.3
 Package: psi-plus-l10n
 Section: localization
 Architecture: all
-Depends: ${misc:Depends}, psi-plus-common
+Depends: ${misc:Depends}, psi-plus | psi-plus-webkit
 Description: translation files for Psi+
  This package contains translation files for Psi+.
  .
