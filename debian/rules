@@ -1,6 +1,10 @@
 #!/usr/bin/make -f
 
-PACKAGE = psi-plus-i18n
+PACKAGE = psi-plus-l10n
+DEVELOPER = psi-plus
+PROJECT = psi-plus-l10n
+
+CUR_VER = $(shell uscan --dehs | sed -n 's/.*<upstream-version>\(.*\)<\/upstream-version>.*/\1/p')
 
 %:
 	dh $@ --parallel
@@ -16,7 +20,20 @@ override_dh_auto_clean:
 	dh_clean
 	rm -f out/* translations.pro
 
+override_dh_builddeb:
+	dh_builddeb -- -Zxz
+
 get-orig-source:
-	uscan --noconf --verbose --force-download --rename --repack --download-current-version --destdir=..
+	# preparation
+	rm -rf "$(PACKAGE)-$(CUR_VER)" "$(CUR_VER)"
+	# sources
+	wget -4 "http://nodeload.github.com/$(DEVELOPER)/$(PROJECT)/tarball/$(CUR_VER)"
+	rm -rf $(DEVELOPER)-$(PROJECT)-*
+	tar xzf "$(CUR_VER)"
+	mv $(DEVELOPER)-$(PROJECT)-* "$(PACKAGE)-$(CUR_VER)"
+	# tarball
+	tar -cJf "$(PACKAGE)_$(CUR_VER).orig.tar.xz" "$(PACKAGE)-$(CUR_VER)"
+	# cleaning
+	rm -rf "$(PACKAGE)-$(CUR_VER)" "$(CUR_VER)"
 
 .PHONY: override_dh_auto_configure override_dh_auto_test
