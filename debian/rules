@@ -17,6 +17,6 @@ override_dh_auto_clean:
 	rm -f out/* translations.pro
 
 get-orig-source:
-	uscan --noconf --verbose --force-download --rename --repack --download-current-version --destdir=..
+	uscan --noconf --verbose --force-download --rename --download-current-version
 
 .PHONY: override_dh_auto_configure override_dh_auto_test
