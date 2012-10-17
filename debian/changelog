@@ -1,8 +1,8 @@
-psi-plus-l10n (0.16.14.2-0ppa1~quantal1) quantal; urgency=low
+psi-plus-l10n (0.16.14.3-0ppa1~quantal1) quantal; urgency=low
 
   * New upstream release.
 
- -- Boris Pek <tehnick-8@mail.ru>  Wed, 17 Oct 2012 22:46:09 +0300
+ -- Boris Pek <tehnick-8@mail.ru>  Wed, 17 Oct 2012 23:21:22 +0300
 
 psi-plus-l10n (0.15.5338.6-1) unstable; urgency=low
 
