@@ -1,3 +1,11 @@
+psi-plus-l10n (0.16.37-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update debian/copyright: added new translator.
+  * Update debian/rules and debian/watch: fix after recent changes in GitHub.
+
+ -- Boris Pek <tehnick-8@mail.ru>  Mon, 19 Nov 2012 00:17:43 +0200
+
 psi-plus-l10n (0.16.19-1) experimental; urgency=low
 
   * New upstream release.
