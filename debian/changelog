@@ -1,3 +1,12 @@
+psi-plus-l10n (0.16.78.1-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update debian/copyright:
+    - add new translators
+    - update years
+
+ -- Boris Pek <tehnick-8@mail.ru>  Mon, 04 Feb 2013 01:26:45 +0200
+
 psi-plus-l10n (0.16.37-1) experimental; urgency=low
 
   * New upstream release.
