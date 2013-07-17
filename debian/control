@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 8), libqt4-dev
 Homepage: https://github.com/psi-plus/psi-plus-l10n
 Vcs-Git: git://github.com/tehnick/psi-plus-l10n-debian.git
 Vcs-Browser: https://github.com/tehnick/psi-plus-l10n-debian
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 
 Package: psi-plus-l10n
 Section: localization
