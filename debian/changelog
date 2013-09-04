@@ -1,3 +1,9 @@
+psi-plus-l10n (0.16.212-0ppa1~saucy1) saucy; urgency=low
+
+  * New upstream release.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 05 Sep 2013 00:25:36 +0300
+
 psi-plus-l10n (0.16.209.1-0ppa1~saucy1) saucy; urgency=low
 
   * New upstream release.
