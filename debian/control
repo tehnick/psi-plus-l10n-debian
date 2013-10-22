@@ -11,7 +11,6 @@ Standards-Version: 3.9.4
 Package: psi-plus-l10n
 Section: localization
 Architecture: all
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, psi-plus | psi-plus-webkit
 Conflicts: psi-plus-i18n
 Replaces: psi-plus-i18n
