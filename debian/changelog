@@ -1,3 +1,11 @@
+psi-plus-l10n (0.16.242-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove Pre-Depends on dpkg (>= 1.15.6~).
+  * Simplify get-orig-source section in debian/rules.
+
+ -- Boris Pek <tehnick@debian.org>  Wed, 23 Oct 2013 02:49:23 +0300
+
 psi-plus-l10n (0.16.132.2-1) unstable; urgency=low
 
   * New upstream release.
