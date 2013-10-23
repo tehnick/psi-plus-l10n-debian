@@ -1,10 +1,11 @@
 #!/usr/bin/make -f
 
 PACKAGE = psi-plus-l10n
-DEVELOPER = psi-plus
-PROJECT = psi-plus-l10n
 
-CUR_VER = $(shell uscan --dehs | sed -n 's/.*<upstream-version>\(.*\)<\/upstream-version>.*/\1/p')
+DEBIAN_PATH := $(abspath $(dir $(MAKEFILE_LIST)))
+USCAN_REPORT = $(shell uscan --noconf --report --dehs $(DEBIAN_PATH))
+CUR_VER = $(shell echo "$(USCAN_REPORT)" | sed -n 's/.*<upstream-version>\(.*\)<\/upstream-version>.*/\1/p')
+CUR_URL = $(shell echo "$(USCAN_REPORT)" | sed -n 's/.*<upstream-url>\(.*\)<\/upstream-url>.*/\1/p')
 
 %:
 	dh $@ --parallel
@@ -24,15 +25,7 @@ override_dh_builddeb:
 	dh_builddeb -- -Zxz
 
 get-orig-source:
-	# preparation
-	rm -rf "$(PACKAGE)-$(CUR_VER)" "$(CUR_VER)"
-	# sources
-	wget -4 "https://codeload.github.com/$(DEVELOPER)/$(PROJECT)/tar.gz/$(CUR_VER)"
-	rm -rf $(PROJECT)-*
-	tar xzf "$(CUR_VER)"
-	# tarball
-	tar -cJf "$(PACKAGE)_$(CUR_VER).orig.tar.xz" "$(PACKAGE)-$(CUR_VER)"
-	# cleaning
-	rm -rf "$(PACKAGE)-$(CUR_VER)" "$(CUR_VER)"
+	wget -c4 "$(CUR_URL)"
+	mv "$(CUR_VER).tar.gz" "$(PACKAGE)_$(CUR_VER).orig.tar.gz"
 
 .PHONY: override_dh_auto_configure override_dh_auto_test
