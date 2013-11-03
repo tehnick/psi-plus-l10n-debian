@@ -1,8 +1,19 @@
-psi-plus-l10n (0.16.117-1~bpo70+1) wheezy-backports; urgency=low
+psi-plus-l10n (0.16.242-1) unstable; urgency=low
 
-  * Rebuild for wheezy-backports.
+  * New upstream release.
+  * Remove Pre-Depends on dpkg (>= 1.15.6~).
+  * Simplify get-orig-source section in debian/rules.
 
- -- Boris Pek <tehnick-8@mail.ru>  Thu, 30 May 2013 22:57:28 +0300
+ -- Boris Pek <tehnick@debian.org>  Wed, 23 Oct 2013 02:49:23 +0300
+
+psi-plus-l10n (0.16.132.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update get-orig-source section in debian/rules.
+  * Update debian/copyright: update years and add new translators.
+  * Bump Standards-Version to 3.9.4 (was 3.9.3): no changes required.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 18 Jul 2013 02:19:32 +0300
 
 psi-plus-l10n (0.16.117-1) unstable; urgency=low
 
