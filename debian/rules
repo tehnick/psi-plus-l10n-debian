@@ -25,7 +25,6 @@ override_dh_builddeb:
 	dh_builddeb -- -Zxz
 
 get-orig-source:
-	wget -c4 "$(CUR_URL)"
-	mv "$(CUR_VER).tar.gz" "$(PACKAGE)_$(CUR_VER).orig.tar.gz"
+	wget -c4 "$(CUR_URL)" -O "$(PACKAGE)_$(CUR_VER).orig.tar.gz"
 
 .PHONY: override_dh_auto_configure override_dh_auto_test
