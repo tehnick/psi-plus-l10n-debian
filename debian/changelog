@@ -1,3 +1,9 @@
+psi-plus-l10n (0.16.268-1~bpo70+1) wheezy-backports; urgency=medium
+
+  * Rebuild for wheezy-backports.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 30 Jan 2014 20:32:05 +0400
+
 psi-plus-l10n (0.16.268-1) unstable; urgency=medium
 
   * New upstream release.
