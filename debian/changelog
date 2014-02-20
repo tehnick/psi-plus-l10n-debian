@@ -1,3 +1,9 @@
+psi-plus-l10n (0.16.287-0ppa1~trusty1) trusty; urgency=medium
+
+  * New upstream release.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 20 Feb 2014 15:55:13 +0400
+
 psi-plus-l10n (0.16.285-0ppa1~trusty1) trusty; urgency=medium
 
   * New upstream release.
