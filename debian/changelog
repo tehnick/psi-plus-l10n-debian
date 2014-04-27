@@ -1,111 +1,36 @@
-psi-plus-l10n (0.16.330-0ppa1~trusty1) trusty; urgency=medium
+psi-plus-l10n (0.16.330-1) unstable; urgency=medium
 
   * New upstream release.
+  * Update debian/control using wrap-and-sort tool.
+  * Update debian/copyright.
 
- -- Boris Pek <tehnick@debian.org>  Sat, 05 Apr 2014 19:25:55 +0400
+ -- Boris Pek <tehnick@debian.org>  Sat, 05 Apr 2014 21:44:29 +0400
 
-psi-plus-l10n (0.16.328-0ppa1~trusty1) trusty; urgency=medium
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 02 Apr 2014 00:11:26 +0400
-
-psi-plus-l10n (0.16.319-0ppa1~trusty1) trusty; urgency=medium
+psi-plus-l10n (0.16.285-1) unstable; urgency=medium
 
   * New upstream release.
+  * Update years in debian/copyright.
 
- -- Boris Pek <tehnick@debian.org>  Fri, 28 Mar 2014 14:44:42 +0400
+ -- Boris Pek <tehnick@debian.org>  Sun, 09 Feb 2014 14:54:25 +0400
 
-psi-plus-l10n (0.16.312-0ppa1~trusty1) trusty; urgency=medium
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 27 Mar 2014 01:39:48 +0400
-
-psi-plus-l10n (0.16.309.1-0ppa1~trusty1) trusty; urgency=medium
+psi-plus-l10n (0.16.268-1) unstable; urgency=medium
 
   * New upstream release.
+  * Update debian/copyright:
+    - new copyright holder
+    - update years
 
- -- Boris Pek <tehnick@debian.org>  Sun, 23 Mar 2014 19:57:11 +0400
+ -- Boris Pek <tehnick@debian.org>  Wed, 15 Jan 2014 22:43:33 +0400
 
-psi-plus-l10n (0.16.297-0ppa1~trusty1) trusty; urgency=medium
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Mon, 17 Mar 2014 20:45:02 +0400
-
-psi-plus-l10n (0.16.289-0ppa1~trusty1) trusty; urgency=medium
+psi-plus-l10n (0.16.262-1) unstable; urgency=medium
 
   * New upstream release.
+  * Bump Standards-Version to 3.9.5 (was 3.9.4): no changes required.
+  * Bump debhelper version to 9 (was 8); update debian/compat.
+  * Simplify get-orig-source section in debian/rules.
+  * Update debian/copyright: added new translator.
 
- -- Boris Pek <tehnick@debian.org>  Thu, 06 Mar 2014 16:29:56 +0400
-
-psi-plus-l10n (0.16.287-0ppa1~trusty1) trusty; urgency=medium
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 20 Feb 2014 15:55:13 +0400
-
-psi-plus-l10n (0.16.285-0ppa1~trusty1) trusty; urgency=medium
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Sun, 09 Feb 2014 18:18:13 +0400
-
-psi-plus-l10n (0.16.284-0ppa1~trusty1) trusty; urgency=medium
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 06 Feb 2014 13:00:34 +0400
-
-psi-plus-l10n (0.16.280-0ppa1~trusty1) trusty; urgency=medium
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 04 Feb 2014 09:19:49 +0400
-
-psi-plus-l10n (0.16.269-0ppa1~trusty1) trusty; urgency=medium
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Sat, 18 Jan 2014 00:43:30 +0400
-
-psi-plus-l10n (0.16.268-0ppa1~trusty1) trusty; urgency=medium
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 15 Jan 2014 01:29:36 +0400
-
-psi-plus-l10n (0.16.262.1-0ppa1~trusty1) trusty; urgency=medium
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Mon, 23 Dec 2013 19:51:32 +0400
-
-psi-plus-l10n (0.16.262-0ppa1~trusty1) trusty; urgency=medium
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 12 Dec 2013 09:29:50 +0400
-
-psi-plus-l10n (0.16.261-0ppa1~trusty1) trusty; urgency=low
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Mon, 25 Nov 2013 06:23:58 +0200
-
-psi-plus-l10n (0.16.257-0ppa1~trusty1) trusty; urgency=low
-
-  * New upstream release.
-
- -- Boris Pek <tehnick@debian.org>  Fri, 15 Nov 2013 00:30:57 +0200
-
-psi-plus-l10n (0.16.242-1ppa1~saucy1) saucy; urgency=low
-
-  * Sync package on Launchpad with package in Debian.
-  * Clean changelog.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 23 Oct 2013 16:16:37 +0300
+ -- Boris Pek <tehnick@debian.org>  Sun, 15 Dec 2013 12:12:14 +0400
 
 psi-plus-l10n (0.16.242-1) unstable; urgency=low
 
