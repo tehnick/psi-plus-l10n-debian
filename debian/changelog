@@ -1,3 +1,9 @@
+psi-plus-l10n (0.16.371-0ppa1~utopic1) utopic; urgency=medium
+
+  * New upstream release.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 19 Jun 2014 22:43:19 +0400
+
 psi-plus-l10n (0.16.366-0ppa1~utopic1) utopic; urgency=medium
 
   * New upstream release.
