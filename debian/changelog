@@ -1,3 +1,9 @@
+psi-plus-l10n (0.16.416-0ppa1~vivid1) vivid; urgency=medium
+
+  * New upstream release.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 30 Oct 2014 13:56:24 +0300
+
 psi-plus-l10n (0.16.406-0ppa1~utopic1) utopic; urgency=medium
 
   * New upstream release.
