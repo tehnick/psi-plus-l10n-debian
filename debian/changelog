@@ -1,3 +1,9 @@
+psi-plus-l10n (0.16.479-0ppa1~xenial1) xenial; urgency=medium
+
+  * New stable release.
+
+ -- Boris Pek <tehnick@debian.org>  Wed, 20 Jan 2016 02:34:01 +0300
+
 psi-plus-l10n (0.16.475-0ppa1~wily1) wily; urgency=medium
 
   * New upstream release.
