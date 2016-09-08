@@ -1,3 +1,9 @@
+psi-plus-l10n (0.16.563.582-0ppa1~yakkety1) yakkety; urgency=medium
+
+  * New stable release.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 08 Sep 2016 22:14:16 +0300
+
 psi-plus-l10n (0.16.560.575-0ppa1~xenial1) xenial; urgency=medium
 
   * New stable release.
