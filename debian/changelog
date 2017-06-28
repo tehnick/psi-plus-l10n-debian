@@ -1,3 +1,9 @@
+psi-plus-l10n (1.0.113-0ppa1~artful1) artful; urgency=medium
+
+  * New stable release.
+
+ -- Boris Pek <tehnick@debian.org>  Wed, 28 Jun 2017 09:49:17 +0300
+
 psi-plus-l10n (1.0.79-0ppa1~zesty1) zesty; urgency=medium
 
   * New stable release.
