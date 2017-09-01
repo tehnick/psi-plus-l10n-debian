@@ -7,11 +7,13 @@ USCAN_REPORT = $(shell uscan --noconf --report --dehs $(DEBIAN_PATH))
 CUR_VER = $(shell echo "$(USCAN_REPORT)" | sed -n 's/.*<upstream-version>\(.*\)<\/upstream-version>.*/\1/p')
 CUR_URL = $(shell echo "$(USCAN_REPORT)" | sed -n 's/.*<upstream-url>\(.*\)<\/upstream-url>.*/\1/p')
 
+export QT_SELECT=qt5
+
 %:
 	dh $@ --parallel
 
 override_dh_auto_build:
-	./update-repo.sh make
+	./update-translations.sh make
 
 override_dh_auto_install:
 	mkdir -p $(CURDIR)/debian/$(PACKAGE)/usr/share/psi-plus/translations/
@@ -19,12 +21,12 @@ override_dh_auto_install:
 
 override_dh_auto_clean:
 	dh_clean
-	rm -f out/* translations.pro
+	rm -rf out/ translations.pro
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
 
 get-orig-source:
-	wget -c4 "$(CUR_URL)" -O "$(PACKAGE)_$(CUR_VER).orig.tar.gz"
+	wget -c "$(CUR_URL)" -O "$(PACKAGE)_$(CUR_VER).orig.tar.gz"
 
 .PHONY: override_dh_auto_configure override_dh_auto_test
