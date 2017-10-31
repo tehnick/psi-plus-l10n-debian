@@ -1,3 +1,9 @@
+psi-plus-l10n (1.2.105-1~bpo9+1) stretch-backports; urgency=medium
+
+  * Rebuild for stretch-backports.
+
+ -- Boris Pek <tehnick@debian.org>  Wed, 01 Nov 2017 00:05:04 +0300
+
 psi-plus-l10n (1.2.105-1) unstable; urgency=medium
 
   * New upstream release.
