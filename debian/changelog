@@ -1,3 +1,9 @@
+psi-plus-l10n (1.2.154-0ppa1~bionic1) bionic; urgency=medium
+
+  * New stable release.
+
+ -- Boris Pek <tehnick@debian.org>  Tue, 09 Jan 2018 01:48:58 +0300
+
 psi-plus-l10n (1.2.150-0ppa1~bionic1) bionic; urgency=medium
 
   * New stable release.
