@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Debianized-By: Boris Pek <tehnick-8@yandex.ru>
 Debianized-Date: Sun, 25 Mar 2012 13:15:26 +0300
 Upstream-Name: Psi+ translations
@@ -74,11 +74,11 @@ Copyright: 2009-2012 Pavał Šałamicki aka Kliok <i.kliok@gmail.com>
            2013 Chen Quanbin aka Apollo (https://www.transifex.com/accounts/profile/Apollo/)
            2014-2015 Florian Fieber <florian+psi@florianfieber.de>
            2013-2014 Alexandro Casanova <shorterfire@gmail.com>
-           2012-2017 Vitaly Tonkacheyev (https://www.transifex.com/accounts/profile/thetvg/)
+           2012-2018 Vitaly Tonkacheyev (https://www.transifex.com/accounts/profile/thetvg/)
            2014-2015 Стоян Димитров <stoyanster@gmali.com>
            2014 Aurélien TAMISIER <virtualtam@flibidi.org>
            2016 Sandor Matyi <sanyy334@gmail.com>
-           2016-2017 Aldo Gate <mav@vmail.me>
+           2016-2018 Aldo Gate <mav@vmail.me>
            2017 Morgan' GAILLARD <21onnet@free.fr>
            2017 Myscelus <myscelus@mail.bg>
            2017 Christian Weiske <cweiske@cweiske.de>
