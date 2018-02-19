@@ -1,2 +1,0 @@
-version=3
-https://github.com/psi-plus/psi-plus-l10n/tags .*/psi-plus/psi-plus-l10n/archive/(\d.+)\.tar\.gz debian uupdate
